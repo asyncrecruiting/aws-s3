@@ -1,3 +1,8 @@
+******** CHANGED THE FOLLOWING; USE AT OWN RISK ***********
+1. Added support for generating pre-signed URLs that write to S3 by introducing a new options, aws_verb
+which if it contains :put instead of :get will generate a write URL
+***********************************************************
+
 = AWS::S3
 
 AWS::S3 is a Ruby library for Amazon's Simple Storage Service's REST API (http://aws.amazon.com/s3).
